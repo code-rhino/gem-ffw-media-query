@@ -1,0 +1,17 @@
+/* Base styles for H1 */
+.content h1 {
+    font-size: 100px; /* Default font size for desktop */
+    line-height: 1.2; /* Default line height */
+    margin-bottom: 30px; /* Default bottom margin */
+    padding: 0 20px; /* Default padding */
+}
+
+/* Responsive styles with Media Queries for H1 */
+@media (max-width: 600px) {
+    .content h1 {
+        font-size: 24px; /* Dramatically reduced font size for small screens */
+        line-height: 1.3; /* Adjusted line height for better readability */
+        margin-bottom: 20px; /* Adjusted bottom margin */
+        padding: 0 15px; /* Adjusted padding */
+    }
+}
